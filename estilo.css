@@ -1,0 +1,23 @@
+:root {
+  --paper: #F4F0E7;
+  --ink: #2F3D1E;
+  --verde: #547A3C;
+  --terra: #A0523C;
+  --oliva: #646A50;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 400 17px/1.6 'Nunito Sans', system-ui, sans-serif;
+}
+main { max-width: 680px; margin: 0 auto; padding: 56px 16px 72px; }
+.kicker { margin: 0 0 4px; color: var(--terra); font-weight: 800; text-transform: uppercase; letter-spacing: .04em; font-size: 14px; }
+.kicker a { color: inherit; text-decoration: none; }
+h1 { margin: 0 0 12px; color: var(--verde); font-weight: 800; font-size: 40px; line-height: 1.15; }
+h2 { margin: 36px 0 8px; font-weight: 800; font-size: 20px; }
+.lead { margin: 0 0 8px; color: var(--oliva); font-size: 19px; }
+a { color: var(--verde); }
+code { background: #E4DBCC; padding: 1px 6px; border-radius: 4px; font-size: 15px; }
+li { margin: 4px 0; }
